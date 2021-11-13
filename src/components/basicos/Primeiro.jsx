@@ -1,5 +1,6 @@
 import React from "react"
 
+// Componente funcional
 export default function Primeiro(){
   const msg = 'Seja muito bem-vindo(a)'
   return (
