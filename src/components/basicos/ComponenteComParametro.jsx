@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function(props){
+export default function ComponenteComParametro(props){
   const status = props.nota >= 7 ? 'Aprovado' : 'Reprovado'
   // props.nota = Math.ceil(props.nota) -> dispara erro. Propriedades sao readonly!!
   const arredondada = Math.ceil(props.nota) // funciona!
